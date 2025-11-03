@@ -1,4 +1,4 @@
-## Remote-sensing-segmentation
+# **Remote sensing segmentation**
 
 This project focuses on semantic segmentation of satellite imagery using DeepLabv3 with ResNet50 as the backbone, trained with a Partial Cross-Entropy Loss function to handle partially labeled data.
 
