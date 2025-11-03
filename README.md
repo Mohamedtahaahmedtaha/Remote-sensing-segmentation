@@ -2,14 +2,14 @@
 
 This project focuses on semantic segmentation of satellite imagery using DeepLabv3 with ResNet50 as the backbone, trained with a Partial Cross-Entropy Loss function to handle partially labeled data.
 
-🚀 Overview
+# Overview
 
 The goal was to build a model capable of segmenting satellite images into distinct land cover classes such as vegetation, urban areas, and water bodies.
 The model was trained on the Remote Sensing Satellite Images dataset from Kaggle, containing labeled training, validation, and test splits.
 
 Despite limited compute resources, the model achieved ~45% IoU after 10 epochs, showing strong learning potential and generalization capability for larger-scale training.
 
-⚙️ Technical Details
+# Technical Details
 
 Model: DeepLabv3 (ResNet50 backbone)
 
@@ -23,12 +23,12 @@ Epochs: 10
 
 Frameworks: PyTorch, Albumentations, segmentation-models-pytorch
 
-📊 Results
+# Results
 Metric	Value (after 10 epochs)
 IoU	0.45
 Dice Coefficient	— (not used)
 Loss	Decreasing steadily across epochs
-🖼️ Visualization
+# Visualization
 
 Each epoch outputs:
 
@@ -40,7 +40,7 @@ Model prediction overlay
 
 This allows tracking model improvements qualitatively across training.
 
-🧠 Key Takeaways
+# Key Takeaways
 
 Partial supervision works effectively in remote sensing tasks with missing labels.
 
